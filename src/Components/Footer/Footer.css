@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'ryeregular';
+    src: url('../../fonts/rye-regular-webfont.woff2') format('woff2'),
+         url('../../fonts/rye-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    color:white;
+  }
+  .footer {
+    font-family: 'ryeregular';
+    font-weight: 500;
+    color: #fff;
+  }
+.footer-info {
+    height:60px;
+    width:100%;
+    position:fixed;
+    bottom:0;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center; 
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+@media only screen and (max-width: 1020px) {
+    .footer-info{
+    font-size: 12px;
+    flex-direction: column;
+  }
+}
+

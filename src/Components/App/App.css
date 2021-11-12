@@ -1,0 +1,108 @@
+body,
+html,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 18px;
+}
+@font-face {
+  font-family: 'ryeregular';
+  src: url('../../fonts/rye-regular-webfont.woff2') format('woff2'),
+       url('../../fonts/rye-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  color:white;
+}
+.App{
+  height: 100%;
+  background-image: url('../../images/1920umrx.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'ryergular', sans-serif;
+  color: #fff;
+}
+@media only screen and (max-width: 1020px) {
+  .App {
+    background-image: url('../../images/tabletumrx.jpg');
+  }
+}
+@media only screen and (max-width: 768px) {
+  .App {
+    background-image: url('../../images/mobileumrx.jpg');
+  }
+}
+.main {
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: 'ryeregular';
+  color:white;
+  background-color: white .25;
+  justify-content: flex-end;
+  align-items: center;
+}
+.menuButton {
+  display:flex;
+  flex:1;
+  justify-content: flex-end;
+  font-size: 50px;
+  text-shadow:4px 4px 4px #000000;
+  display: flex;
+  width:100%;
+  align-items: center;
+
+}
+button {
+  background-color: transparent;
+  color:white;
+  border:none;
+  font-size: 50px;
+  display: flex;
+}
+.menuOn {
+  display:flex;
+  position:fixed;
+  top:0;bottom:0;left:0;right:0;
+  background:#00753D;
+  justify-content: center;
+  align-items: center;
+  visibility:visible;
+  overflow: hidden;
+  opacity:1;
+  transition: ease 0.25s all;
+  transform: scaleX(1);
+}
+.menuOff {
+  display:flex;
+  position:fixed;
+  top:0;bottom:0;left:0;right:0;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: ease 0.15s all;
+  transform: scaleY(1);
+  visibility: hidden;
+  opacity:0;
+  transition: ease 0.25s all;
+  transform: scaleX(0);
+}
+ul li {
+  list-style-type: none;
+  padding: 5px;
+  font-size: 50px;
+  text-shadow:4px 4px 4px #000000;
+}
+a:hover{
+color: #005538
+}
+.componentSection {
+  display:flex;
+  align-content: flex-start;
+  width:90%;
+}
+.menuImg {
+  max-width: 250px;
+}
