@@ -41,11 +41,11 @@ class About extends React.Component {
                         <p><i>“A foul, perverted, and often funny satire of family dysfunction.” – Seattle Weekly</i></p>
                         <p>Directed by Douglas Willott</p>
                         </div>
-                        </div>
+                    </div>
                         <div className="cast">
                             <div className="pig">
                                 <img src={pigBall} alt="Pig Christmas Ornament" className="pigBall" />
-                                <h1>Cast</h1>
+                                <h2>The Cast</h2>
                                 <img src={pigBall2} alt="Pig Christmas Ornament" className="pigBall" />
                             </div>
                             <div className="castPics">
@@ -91,7 +91,7 @@ class About extends React.Component {
                                 </div>
                                 <div className="castMember">
                                 <img src={thompson} alt="Stephanie Thompson" className="castImg" />
-                                <h3>Stephanie Thompson</h3>
+                                <h4>Stephanie Thompson</h4>
                                 </div>
                                 <div className="castMember">
                                 <img src={willott} alt="Doug Willott" className="castImg" />
