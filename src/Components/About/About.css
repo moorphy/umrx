@@ -1,0 +1,83 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-shadow:4px 4px 4px #000000;
+}
+.cast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:55%;
+}
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    width:40%;
+}
+.aboutImg {
+    margin:auto 0;
+}
+
+.aboutText {
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(0,0,0,.35);
+    padding: 15px;
+}
+.pig {
+    display:flex;
+    width: 100%;
+    padding-bottom: 25px;
+    justify-content: space-evenly;
+}
+.pigBall {
+    display:flex;
+    max-width:25%;
+}
+
+p {
+    font-size: 25px;
+}
+
+.godzilla {
+    display: flex;
+    max-width:100%;
+}
+.castPics {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.castMember {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+    height:450px;
+    padding-bottom: 15px;
+}
+.castImg {
+    max-width: 100%;
+}
+h3 {
+    font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 1250px) {
+    .about {
+        flex-direction: column;
+    }
+    .textContainer {
+        width:100%;
+    }
+    .cast {
+        width: 100%;
+    }
+  }
+@media only screen and (max-width: 768px) {
+
+  }

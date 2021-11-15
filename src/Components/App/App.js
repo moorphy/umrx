@@ -2,7 +2,6 @@ import React from 'react';
 import '../App/App.css';
 import {BrowserRouter as Router, Link, Routes, Route} from 'react-router-dom';
 import  {CgMenuRound} from 'react-icons/cg';
-import Footer from '../Footer/Footer';
 import Home from '../Home/Home';
 import About from '../About/About';
 import Tickets from '../Tickets/Tickets';
@@ -68,7 +67,6 @@ class App extends React.Component {
                 </div>
               </Router>
           </div>
-          <Footer />
       </div>
     );
   }

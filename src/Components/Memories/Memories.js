@@ -1,5 +1,8 @@
 import React from 'react';
 import './Memories.css';
+import pigBall from '../../images/pigball.png'
+
+
 
 class Memories extends React.Component {
 
@@ -7,6 +10,8 @@ class Memories extends React.Component {
         return (
             <div className="memories">
                     <h2>This is the Memories Page</h2>
+
+
             </div>
         );
     }
