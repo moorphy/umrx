@@ -5,8 +5,8 @@ import  {CgMenuRound} from 'react-icons/cg';
 import Home from '../Home/Home';
 import About from '../About/About';
 import Tickets from '../Tickets/Tickets';
-import Gallery from '../Gallery/Gallery';
-import Memories from '../Memories/Memories';
+import Media from '../Media/Media';
+// import Memories from '../Memories/Memories';
 import Contact from '../Contact/Contact';
 import menuImg from '../../images/holly.png';
 
@@ -44,10 +44,7 @@ class App extends React.Component {
                             <Link to="/tickets">Tickets</Link>
                           </li>
                           <li>
-                            <Link to="/gallery">Gallery</Link>
-                          </li>
-                          <li>
-                            <Link to="/memories">Memories</Link>
+                            <Link to="/media">Media</Link>
                           </li>
                           <li>
                             <Link to="/contact">Contact</Link>
@@ -60,8 +57,7 @@ class App extends React.Component {
                         <Route exact path="/" element={<Home/>}/>
                         <Route exact path="/about" element={<About/>}/>
                         <Route exact path="/tickets" element={<Tickets/>}/>
-                        <Route exact path="/gallery" element={<Gallery/>}/>
-                        <Route exact path="/memories" element={<Memories/>}/>
+                        <Route exact path="/media" element={<Media/>}/>
                         <Route exact path="/contact" element={<Contact/>}/>
                   </Routes>
                 </div>

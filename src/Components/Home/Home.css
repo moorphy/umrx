@@ -10,7 +10,6 @@
     align-items: center;
     flex-wrap: wrap;
     height:100%;
-    text-shadow:4px 4px 4px #000000;
 }
 .logoBox {
     display:flex;
@@ -85,5 +84,11 @@ h2 {
     }
     .place {
         padding-left: 0px;
+    }
+    h1 {
+        font-size: 2.25em;
+    }
+    h2 {
+        font-size: 1.75em;
     }
   }

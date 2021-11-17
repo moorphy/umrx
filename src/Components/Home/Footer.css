@@ -1,17 +1,21 @@
 .footer {
     display:flex;
+    align-content: center; 
     font-family: 'ryeregular';
     font-weight: 500;
+    font-size: 22px;
     color: #fff;
   }
 .footer-info {
     height:60px;
-    width:100%;
+    width:90%;
+    height:100px;
     position:fixed;
     bottom:0;
     display:flex;
-    justify-content:space-evenly;
-    align-items: center; 
+    justify-content:space-between;
+    justify-items: center; 
+    align-items: center;
   }
 a {
     color: white;
@@ -19,7 +23,7 @@ a {
 }
 @media only screen and (max-width: 1150px) {
     .footer-info{
-        font-size: 12px;
+        font-size: 18px;
         flex-direction: column;
       }
     }
