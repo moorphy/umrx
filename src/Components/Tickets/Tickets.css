@@ -22,8 +22,8 @@
     width:45%;
 }
 .cat {
-    height:350px;
-    width:250px
+    height:375px;
+    width:275px
 }
 .ticketText{
     display:flex;
@@ -94,7 +94,4 @@
     .ticket h3 {
         font-size: 1em;
     }
-  }
-  @media only screen and (max-width: 768px) {
-
   }

@@ -38,6 +38,9 @@ h1 {
 h2 {
     font-size: 3em;
 }
+.place a:hover {
+    color:#8d8d8d;
+}
 
 
 @media only screen and (max-width: 1150px) {

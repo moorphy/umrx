@@ -3,6 +3,7 @@ import './Home.css';
 import './Footer.css';
 import Footer from './Footer';
 import umrxImg from '../../images/umrxlogo21.png';
+import {BiMap} from 'react-icons/bi'
 
 class Home extends React.Component {
     getYear() {
@@ -23,7 +24,7 @@ class Home extends React.Component {
                         </div>
                         <div className="place">
                             <h1>West of Lenin</h1>
-                            <h2>203 N 36th St</h2>
+                            <a href="http://maps.google.com/?q=203 N 36th St Seattle, WA 98103"><h2><BiMap/>203 N 36th St</h2></a>
                         </div>
                     </div>
                 </div>

@@ -7,9 +7,6 @@ function Slider() {
     const [currentImg, setImg] = useState(0);
     return (
         <div className='slider'>
-            <h1>Gallery</h1>
-            <p>Photos by Todd Gardiner / <a href="https://www.hieroglyphphotography.com/" >Hieroglyph Photography</a></p>
-
           <div 
             className="sliderInner" 
             style={{backgroundImage: `url(${images[currentImg].img})`}}>
@@ -24,7 +21,7 @@ function Slider() {
                         }} /></div>
 
             </div>
-
+            <p>Photos by Todd Gardiner / <a href="https://www.hieroglyphphotography.com/" >Hieroglyph Photography</a></p>
         </div>
     )
 }
