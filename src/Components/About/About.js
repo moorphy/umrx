@@ -37,7 +37,7 @@ class About extends React.Component {
                         <p>You write down a heartwarming holiday memory. We re-enact it. Then Uncle Mike ruins it in ways no sane human should be able to imagine.</p>
                         <p>Foul and fun, alarming and charming, come see why audiences return year after year for another serving of Uncle Mike’s special blend of madness.</p>
                         <p>Be warned, this improvised show features mature content and is not suitable for anyone. </p>
-                        <p><i>“Bawdy retellings of of audience members’ anecdotes… for those whose hearts are two sizes too small.” – Seattle Met</i></p>
+                        <p><i>“Bawdy retellings of audience members’ anecdotes… for those whose hearts are two sizes too small.” – Seattle Met</i></p>
                         <p><i>“A foul, perverted, and often funny satire of family dysfunction.” – Seattle Weekly</i></p>
                         <p>Directed by Douglas Willott</p>
                         </div>

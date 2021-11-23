@@ -16,7 +16,7 @@ class Media extends React.Component {
                     </div>
 
                     <div className="media-box">
-                        <iframe src="https://open.spotify.com/embed/playlist/1WrE2Q6rK5MJj9Z3sZO42R?utm_source=generator" width="100%" height="450px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                        <iframe src="https://open.spotify.com/embed/playlist/1WrE2Q6rK5MJj9Z3sZO42R?utm_source=generator" title="Spotify player"width="100%" height="450px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                     </div>
                 </div> 
             </div>

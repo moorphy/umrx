@@ -1,6 +1,5 @@
 import React from 'react';
 import './Contact.css';
-import SantaLog from '../../images/santalog.png';
 import CallSanta from '../../images/callsanta.png';
 import JCI from '../../images/jci.png';
 
@@ -25,7 +24,7 @@ class Contact extends React.Component {
 
                 <div className="contact-box2">
                     <div className="jci"> <img src={JCI} alt="Jet City Improv logo" className="contact-box-photo" /></div>
-                    <h3>Information from our Co-Producers: </h3>
+                    <h3>Information from our Producers: </h3>
                     <div className="contact-box-inner">
 
                         <div className="contact-box-inner-left">

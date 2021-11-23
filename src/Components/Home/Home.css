@@ -1,45 +1,66 @@
 .wrapper {
     display:flex;
+    width:100%;
     flex-direction: column;
 }
 .home {
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
-    justify-items: center;
-    align-items: center;
-    flex-wrap: wrap;
-    height:100%;
+}
+h1{
+    font-size: 3em;
+}
+.homeText p {
+    font-size: 35px;
+    line-height: 20px;
 }
 .logoBox {
     display:flex;
     flex-direction: column;
     width:50%;
 }
-.umrxImg {
+.jciBanner {
     display:flex;
     justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    height:100px;
+}
+.jciBanner img {
+    max-width:33%;
+}
+.umrxImg {
     max-width:100%;
 }
 .homeInfo {
     display:flex;
-    justify-content: center;
     align-items: center;
-    width:50%;
+    flex-wrap: wrap;
+    width:100%;
 }
 .homeText {
     display: flex;   
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
+    width:50%;
 }
-h1 {
-    font-size: 4em;
+.dates {
+    width:100%;
 }
-h2 {
-    font-size: 3em;
+.dates h2 {
+    font-size: 2em;
 }
+.place {
+    width:100%;
+}
+
 .place a:hover {
+    text-decoration: none;
     color:#8d8d8d;
+}
+a {
+    text-decoration: none;
+    color:white;
 }
 
 
@@ -56,27 +77,29 @@ h2 {
     }
     .homeText {
         flex-direction: row;  
-        align-content: space-between;
+        width:100%;
+        margin-top: 15px;
     }
     .dates {
-        padding-right: 65px;
+        width:100%;
     }
     .place {
-        padding-left: 65px;
+        width:100%;
     }
+    
     h1 {
         font-size: 2.5em;
     }
     h2 {
-        font-size: 2em;
+        font-size: 1.45em;
     }
     .umrxImg {
-      max-width: 70%;
+      max-width: 75%;
+      margin-top:  25px;
     }
-    .footer-info{
-        font-size: 12px;
-        flex-direction: column;
-      }
+    .jciBanner img {
+        max-width:50%;
+    }
   }
   @media only screen and (max-width: 768px) {
     .homeText {
@@ -94,4 +117,21 @@ h2 {
     h2 {
         font-size: 1.75em;
     }
+    .jciBanner img {
+        max-width:85%;
+        margin-top: 35px;
+    }
+    .umrxImg {
+        max-width: 90%;
+        margin-top:  20px;
+      }
   }
+  @media only screen and (max-width: 450px) {
+  .homeInfo h1 {
+      font-size: 35px;
+      line-height: 15px;
+  }
+  .homeInfo h2 {
+    font-size: 25px;
+}
+}

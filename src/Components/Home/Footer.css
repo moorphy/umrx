@@ -3,7 +3,7 @@
     align-content: center; 
     font-family: 'ryeregular';
     font-weight: 500;
-    font-size: 22px;
+    font-size: 18px;
     color: #fff;
   }
 .footer-info {
@@ -23,7 +23,6 @@ a {
 }
 @media only screen and (max-width: 1150px) {
     .footer-info{
-        font-size: 18px;
-        flex-direction: column;
+      display:none;
       }
     }
