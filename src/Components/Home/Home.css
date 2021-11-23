@@ -24,7 +24,7 @@ h1{
     justify-content: center;
     align-items: flex-start;
     flex-direction: row;
-    height:100px;
+    height:135px;
 }
 .jciBanner img {
     max-width:33%;
@@ -95,7 +95,10 @@ a {
     }
     .umrxImg {
       max-width: 75%;
-      margin-top:  25px;
+      margin-top:  35px;
+    }
+    .jciBanner {
+        height:80px;
     }
     .jciBanner img {
         max-width:50%;
@@ -117,21 +120,30 @@ a {
     h2 {
         font-size: 1.75em;
     }
+    .jciBanner {
+        height:135px;
+    }
     .jciBanner img {
-        max-width:85%;
+        max-width:90%;
         margin-top: 35px;
     }
     .umrxImg {
-        max-width: 90%;
-        margin-top:  20px;
+        max-width: 95%;
+        margin-top: 55px;
       }
   }
-  @media only screen and (max-width: 450px) {
+  @media only screen and (max-width: 550px) {
   .homeInfo h1 {
       font-size: 35px;
-      line-height: 15px;
+      line-height: 35px;
   }
   .homeInfo h2 {
     font-size: 25px;
 }
+.jciBanner {
+    height:115px;
+}
+   .umrxImg {
+        margin-top: 15px;
+    }
 }

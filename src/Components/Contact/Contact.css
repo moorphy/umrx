@@ -46,6 +46,7 @@ header {
     font-size: 22px;
     margin-bottom: 25px;
     list-style-type: initial;
+    text-align: left;
 }
 .jci {
     display:flex;
