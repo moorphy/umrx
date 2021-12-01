@@ -3,6 +3,7 @@ import './About.css';
 import godzilla from '../../images/godzilla.png';
 import pigBall from '../../images/pigball.png';
 import pigBall2 from '../../images/pigball2.png';
+import carlson from '../../images/cast/carlson.png';
 import cox from '../../images/cast/cox.png';
 import downing from '../../images/cast/downing.png';
 import edwards from '../../images/cast/edwards.png';
@@ -12,6 +13,7 @@ import mcneil from '../../images/cast/mcneil.png';
 import miller from '../../images/cast/miller.png';
 import murphy from '../../images/cast/murphy.png';
 import schempp from '../../images/cast/schempp.png';
+import scherzer from '../../images/cast/scherzer.png';
 import teel from '../../images/cast/teel.png';
 import thompson from '../../images/cast/thompson.png';
 import willott from '../../images/cast/willott.png';
@@ -96,6 +98,14 @@ class About extends React.Component {
                                 <div className="castMember">
                                 <img src={willott} alt="Doug Willott" className="castImg" />
                                 <h3>Doug Willott</h3>
+                                </div>
+                                <div className="castMember">
+                                <img src={scherzer} alt="Rob Scherzer" className="castImg" />
+                                <h3>Rob Scherzer <br /> Musician</h3>
+                                </div>
+                                <div className="castMember">
+                                <img src={carlson} alt="Amanda Carlson" className="castImg" />
+                                <h3>Amanda Carlson <br /> Stage Manager</h3>
                                 </div>
                             </div>
                         </div>

@@ -1,4 +1,3 @@
-import UMRX1 from '../gallery/2018_1.jpg';
 import UMRX2 from '../gallery/2013_2.jpg';
 import UMRX3 from '../gallery/2018_15.jpg';
 import UMRX4 from '../gallery/2018_9.jpg';
@@ -28,11 +27,6 @@ import UMRX26 from '../gallery/2018_4.jpg';
 
 
 export const images = [
-    {
-        title: "Alison, Uncle Mike and Nick",
-        subtitle:"Presenting our Genitals",
-        img: UMRX1
-    },
     {
         title: "Nick and Jon",
         subtitle:"Nick and Jon talk about the WTC",
