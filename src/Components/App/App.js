@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Link, Routes, Route} from 'react-router-dom';
 import  {CgMenuRound} from 'react-icons/cg';
 import Home from '../Home/Home';
 import About from '../About/About';
-import Tickets from '../Tickets/Tickets';
+// import Tickets from '../Tickets/Tickets';
 import Media from '../Media/Media';
 // import Memories from '../Memories/Memories';
 import Contact from '../Contact/Contact';
@@ -40,9 +40,9 @@ class App extends React.Component {
                           <li>
                             <Link to="/about">About</Link>
                           </li>
-                          <li>
-                            <Link to="/tickets">Tickets</Link>
-                          </li>
+                           <li>
+                           <a href="https://www.goelevent.com/UMRX/e/UncleMikeRuinsChristmas"><li>Tickets</li></a>
+                          </li> 
                           <li>
                             <Link to="/media">Media</Link>
                           </li>
@@ -56,7 +56,7 @@ class App extends React.Component {
                   <Routes>
                         <Route exact path="/" element={<Home/>}/>
                         <Route exact path="/about" element={<About/>}/>
-                        <Route exact path="/tickets" element={<Tickets/>}/>
+                        {/* <Route exact path="/tickets" element={<Tickets/>}/> */}
                         <Route exact path="/media" element={<Media/>}/>
                         <Route exact path="/contact" element={<Contact/>}/>
                   </Routes>

@@ -33,26 +33,9 @@ class Tickets extends React.Component {
                             </div>
                     </div>
                     <div className="ticketBuy">
-                       <div className="ticket"> 
-                            <a href="https://wingitproductions.secure.force.com/ticket/PatronTicket__PublicTicketApp#/instances/a038Y000028BonLQAS" ><h2><RiTicket2Line /></h2><h2>December 3rd</h2><h3>8pm</h3></a>
-                        </div>
+
                         <div className="ticket"> 
-                            <a href="https://wingitproductions.secure.force.com/ticket/PatronTicket__PublicTicketApp#/instances/a038Y000028BonaQAC" ><h2><RiTicket2Line /></h2><h2>December 4th</h2><h3>8pm</h3></a>
-                        </div>
-                        <div className="ticket"> 
-                            <a href="https://wingitproductions.secure.force.com/ticket/PatronTicket__PublicTicketApp#/instances/a038Y000028BonfQAC" ><h2><RiTicket2Line /></h2><h2>December 11th</h2><h3>8pm</h3></a>
-                        </div>
-                        <div className="ticket"> 
-                            <a href="https://wingitproductions.secure.force.com/ticket/PatronTicket__PublicTicketApp#/instances/a038Y000028BovAQAS" ><h2><RiTicket2Line /></h2><h2>December 11th</h2><h3>10:30pm</h3></a>
-                        </div>
-                        <div className="ticket"> 
-                            <a href="https://wingitproductions.secure.force.com/ticket/PatronTicket__PublicTicketApp#/instances/a038Y000028BonpQAC" ><h2><RiTicket2Line /></h2><h2>December 17th</h2><h3>8pm</h3></a>
-                        </div>
-                        <div className="ticket"> 
-                            <a href="https://wingitproductions.secure.force.com/ticket/PatronTicket__PublicTicketApp#/instances/a038Y000028BonkQAC" ><h2><RiTicket2Line /></h2><h2>December 18th</h2><h3>8pm</h3></a>
-                        </div>
-                        <div className="ticket"> 
-                            <a href="https://wingitproductions.secure.force.com/ticket/PatronTicket__PublicTicketApp#/instances/a038Y000028BovFQAS" ><h2><RiTicket2Line /></h2><h2>December 18th</h2><h3>10:30pm</h3></a>
+                            <a href="/" ><h2><RiTicket2Line /></h2><h2>No Tickets Available</h2></a>
                         </div>
                     </div>
                 </div>

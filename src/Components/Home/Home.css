@@ -40,7 +40,7 @@ h1{
 }
 .homeText {
     display: flex;   
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
     width:50%;
 }

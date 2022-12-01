@@ -18,11 +18,11 @@ class Contact extends React.Component {
 
         return (
             <div className='contact-container'>
-                <header>
+{/*                 <header>
                 <h1>Contact Us</h1>
-                </header>
+                </header> */}
 
-                <div className="contact-box2">
+{/*                 <div className="contact-box2">
                     <div className="jci"> <img src={JCI} alt="Jet City Improv logo" className="contact-box-photo" /></div>
                     <h3>Information from our Producers: </h3>
                     <div className="contact-box-inner">
@@ -46,7 +46,7 @@ class Contact extends React.Component {
                         <Mailto email="oliver@jetcityimprov.org" subject="Uncle Mike Ticket Question"> Email Jet City Improv</Mailto>
                        </h4>
                        </div>
-                </div>
+                </div> */}
                 <div className="contact-box">
                         <img src={CallSanta} alt="Santa on an Ol timey phone to a little girl" className="contact-box-photo-santa" />
                         <Mailto email="uncle@unclemikeruinschristmas.com" subject="My Cherished Holiday Memory" body="Tell Unky Mike all about it...">
