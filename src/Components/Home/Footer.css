@@ -1,7 +1,7 @@
 .footer {
     display:flex;
-    align-content: center; 
-    font-family: 'ryeregular';
+    align-content:center; 
+    font-family: 'Luminance OT';
     font-weight: 500;
     font-size: 18px;
     color: #fff;
@@ -15,7 +15,7 @@
     display:flex;
     justify-content:space-between;
     justify-items: center; 
-    align-items: center;
+
   }
 a {
     color: white;

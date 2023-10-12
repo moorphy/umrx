@@ -3,6 +3,7 @@ import '../App/App.css';
 import {BrowserRouter as Router, Link, Routes, Route} from 'react-router-dom';
 import  {CgMenuRound} from 'react-icons/cg';
 import Home from '../Home/Home';
+import Footer from '../Home/Footer';
 import About from '../About/About';
 // import Tickets from '../Tickets/Tickets';
 import Media from '../Media/Media';
@@ -30,7 +31,7 @@ class App extends React.Component {
     return (
       <div className="App">
           <div className='main'>
-              <div className='menuButton'style={{zIndex:'2'}}>MENU<button onClick={this.toggleMenu}> <CgMenuRound /></button></div>
+              <div className='menuButton'style={{zIndex:'2'}}><button onClick={this.toggleMenu}> <CgMenuRound /></button></div>
               <Router>
               <div className={this.state.active ? 'menuOn' :'menuOff'} style={{zIndex:'1'}}>
                       <ul onClick={this.toggleMenu}>
@@ -41,7 +42,7 @@ class App extends React.Component {
                             <Link to="/about">About</Link>
                           </li>
                            <li>
-                           <a href="https://www.goelevent.com/UMRX/e/UncleMikeRuinsChristmas"><li>Tickets</li></a>
+                           <a href="https://www.strangertickets.com/events/145166479/uncle-mike-ruins-christmas"><li>Tickets</li></a>
                           </li> 
                           <li>
                             <Link to="/media">Media</Link>

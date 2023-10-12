@@ -7,7 +7,7 @@ import {BiMap} from 'react-icons/bi';
 class Home extends React.Component {
     getYear() {
         return new Date().getFullYear();
-    }
+     }
     render(){
         return (
             <div className="wrapper">
@@ -19,15 +19,15 @@ class Home extends React.Component {
                             <div className="homeText">
                                 <div className="dates">
                                     <h1>DECEMBER</h1>
-                                    <h2>9th  -  23rd</h2>
+                                    <h2>15th  •  16th  •  22nd  •  23rd</h2>
                                 </div>
                             <div className="place">
-                                <h1>WEST OF LENIN</h1>
-                                <a href="http://maps.google.com/?q=203 N 36th St Seattle, WA 98103"><h2><BiMap/>203 N 36th St</h2></a>
-                            </div>
+                                <h1>CENTER THEATRE</h1>
+                                <a href="https://maps.app.goo.gl/gP5DvnoU41rVTWox8"><h2><BiMap/>305 Harrison St.</h2></a>
+                            </div> 
                             <div className="tickets">
-                                
-                                <a href="https://www.goelevent.com/UMRX/e/UncleMikeRuinsChristmas"><h1>GET TICKETS</h1></a>
+                            <a href="https://www.strangertickets.com/events/145166479/uncle-mike-ruins-christmas"><h1>TICKETS</h1></a>
+                            
                             </div>
                     </div>
                 </div>

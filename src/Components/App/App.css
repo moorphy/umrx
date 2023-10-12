@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/der3skq.css");
+
 body,
 html,
 #root {
@@ -20,6 +22,13 @@ html {
   font-style: normal;
   color:white;
 }
+font-face {
+  font-family: "luminance-sc", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 .App{
   height: 100%;
   background-image: url('../../images/1920umrx.jpg');
@@ -27,7 +36,7 @@ html {
   overflow: scroll;
   background-position: center;
   background-repeat: no-repeat;
-  font-family: 'ryergular', sans-serif;
+  font-family: 'luminance-sc', sans-serif;
   color: #fff;
   text-shadow:4px 4px 4px #000000;
 }

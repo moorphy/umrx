@@ -8,7 +8,7 @@
     flex-direction: row;
 }
 h1{
-    font-size: 3em;
+    font-size: 3.25em;
 }
 .homeText p {
     font-size: 35px;
@@ -47,8 +47,9 @@ h1{
 .dates {
     width:100%;
 }
-.dates h2 {
-    font-size: 2em;
+h2 {
+    font-size: 1.95em;
+    font-family:'luminance-sc';
 }
 .place {
     width:100%;

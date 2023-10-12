@@ -10,7 +10,7 @@ class Footer extends React.Component {
                 <div className="footer-info">
                     <div className = "footer-item">&copy; Copyright, {this.getYear()}</div>
                     <div className = "footer-item">All Rights Reserved</div>
-                    <div className="footer-item"><a href="https://moorphy.com">Design by Mike Murphy</a></div>
+                    {/* <div className="footer-item"><a href="https://moorphy.com">Design by Mike Murphy</a></div> */}
                 </div>
             </div>
         );
