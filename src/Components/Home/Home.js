@@ -18,17 +18,18 @@ class Home extends React.Component {
                              </div>
                             <div className="homeText">
                                 <div className="dates">
+                                    <h1>SEE YOUR</h1>
+                                    <h1>ASSES IN</h1>
                                     <h1>DECEMBER</h1>
-                                    <h2>15th  •  16th  •  22nd  •  23rd</h2>
                                 </div>
-                            <div className="place">
-                                <h1>CENTER THEATRE</h1>
-                                <a href="https://maps.app.goo.gl/gP5DvnoU41rVTWox8"><h2><BiMap/>305 Harrison St.</h2></a>
-                            </div> 
-                            <div className="tickets">
-                            <a href="https://www.strangertickets.com/events/145166479/uncle-mike-ruins-christmas"><h1>TICKETS</h1></a>
-                            
-                            </div>
+                            {/* <div className="place"> */}
+                                {/* <h1>CENTER THEATRE</h1> */}
+                                {/* {/* <a href="https://maps.app.goo.gl/gP5DvnoU41rVTWox8"><h2><BiMap/>305 Harrison St.</h2></a> */} 
+                            {/* </div>  */}
+                            {/* <div className="tickets"> */}
+                            {/* {/* <a href="https://www.strangertickets.com/events/145166479/uncle-mike-ruins-christmas"><h1>TICKETS</h1></a> */} 
+                            {/*  */}
+                            {/* </div> */}
                     </div>
                 </div>
             </div>
