@@ -1,24 +1,14 @@
 .about {
+    margin:auto 0;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    justify-content: center;
     padding-top:15px;
-    justify-content: space-between;
     text-shadow:4px 4px 4px #000000;
-}
-.cast {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width:55%;
-    margin-top: 45px;
-    background-color:rgba(0,0,0,.65);
-    border: solid white 1px;
 }
 .textContainer {
     display: flex;
     flex-direction: column;
-    width:40%;
+    width: 50%;
 }
 .aboutImg {
     margin:auto 0;
@@ -31,20 +21,6 @@
     border: solid white 1px;
     padding: 15px;
 }
-.pig {
-    display:flex;
-    width: 100%;
-    padding-bottom: 75px;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.pig h2{
-    font-size: 2.5rem;
-}
-.pigBall {
-    display:flex;
-    max-width:25%;
-}
 
 p {
     font-size: 25px;
@@ -54,25 +30,6 @@ p {
 .godzilla {
     display: flex;
     max-width:100%;
-}
-.castPics {
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-.castMember {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width:275px;
-    height:425px;
-    padding-bottom: 15px;
-    text-align: center;
-}
-.castImg {
-    max-width: 100%;
 }
 h3 {
     display:flex;
@@ -91,11 +48,9 @@ h4 {
     }
     .textContainer {
         width:100%;
+        font-size: 12px;
     }
-    .cast {
-        width: 100%;
+    .contact-box p {
+        font-size: 18px;
     }
-  }
-@media only screen and (max-width: 768px) {
-
   }

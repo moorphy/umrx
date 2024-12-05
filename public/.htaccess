@@ -2,4 +2,5 @@ Options -MultiViews
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f 
 RewriteRule ^ index.html [QSA,L]
+RewriteRule ^bizcards$ https://www.strangertickets.com/events/159960510/uncle-mike-ruins-christmas [R=301,L]
 PassengerNodejs /home/dh_xyc46s/.nvm/versions/node/v12.16.3/bin/node

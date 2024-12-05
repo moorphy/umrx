@@ -1,8 +1,6 @@
 import React from 'react';
 import './Home.css';
-import umrxImg from '../../images/umrxlogo21.png';
-import {BiMap} from 'react-icons/bi';
-// import jciBanner from '../../images/jcibanner.png'
+import umrxImg from '../../images/umrxlogo.png';
 
 class Home extends React.Component {
     getYear() {
@@ -18,9 +16,11 @@ class Home extends React.Component {
                              </div>
                             <div className="homeText">
                                 <div className="dates">
-                                    <h1>SEE YOUR</h1>
-                                    <h1>ASSES IN</h1>
-                                    <h1>DECEMBER</h1>
+                                <a href="https://www.strangertickets.com/events/
+159960510/
+uncle-mike-ruins-christmas"><h1>GET YOUR ASSES</h1>
+                                    <h1>SOME TICKETS</h1>
+                                    <h1>HERE</h1></a>
                                 </div>
                             {/* <div className="place"> */}
                                 {/* <h1>CENTER THEATRE</h1> */}
