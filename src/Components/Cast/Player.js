@@ -9,6 +9,8 @@ class Player extends React.Component {
     const { name, pronouns, role, bio, headshot } = this.props;
     return (
       <div className="contact-box">
+        <br />
+        <br />
         <Card>
           <Card.Img
             variant="top"
