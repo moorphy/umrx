@@ -7,15 +7,20 @@ class Player extends React.Component {
   render() {
     const { name, pronouns, role, bio, photo_1 } = this.props;
     return (
-      <div>
-        <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src="photo_1" />
+      <div className="contact-box">
+        {/* <Card style={{ width: "18rem" }}> */}
+        <Card>
+          <Card.Img variant="top" src={photo_1} />
           <Card.Body>
-            <Card.Title>{name}</Card.Title>
+            <Card.Title>
+              <h1>{name}</h1>
+            </Card.Title>
             <p>{pronouns}</p>
             <p>{role}</p>
-            <Card.Text>{bio}</Card.Text>
-            {/* <Button variant="primary">Go somewhere</Button> */}
+            <Card.Text>
+              <h4>{bio}</h4>
+            </Card.Text>
+            {/* <Button variant="primary">Link to plug player's wwebpage, show, something?</Button> */}
           </Card.Body>
         </Card>
       </div>
