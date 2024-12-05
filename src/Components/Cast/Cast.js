@@ -27,6 +27,7 @@ class Cast extends React.Component {
                 pronouns={player.pronouns}
                 role={player.role}
                 bio={player.bio}
+                photo_1={player.photo_1}
               />
             ))}
             <br />

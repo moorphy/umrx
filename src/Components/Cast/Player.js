@@ -5,11 +5,11 @@ import Card from "react-bootstrap/Card";
 
 class Player extends React.Component {
   render() {
-    const { name, pronouns, role, bio } = this.props;
+    const { name, pronouns, role, bio, photo_1 } = this.props;
     return (
       <div>
         <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Img variant="top" src="photo_1" />
           <Card.Body>
             <Card.Title>{name}</Card.Title>
             <p>{pronouns}</p>
