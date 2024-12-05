@@ -15,7 +15,6 @@ class Player extends React.Component {
             src={headshot}
             alt={`${name}'s headshot`}
             className="img-fluid player-headshot"
-            rounded
           />
           <Card.Body>
             <Card.Title>
