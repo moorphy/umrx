@@ -107,10 +107,15 @@
     "name": "Rob Scherzer",
     "pronouns": "he/him",
     "role": "Marketing Manager, Producer",
-    "bio": "Rob plays the keys.",
+    "bio": "Rob plays the keys. More info at the QR code!",
     "headshot": "rob_scherzer",
-    "photo_1": null,
-    "photo_2": null
+    "photo_1": "https://drive.google.com/uc?id=1lvkIrzJnDKjdI4ydluCqqXJ3mrgoM3yK",
+    "photo_2": [
+      "https://drive.google.com/uc?id=1U9f9PsVsskOMSbpFUvErFahwKvvE2VXg",
+      "https://drive.google.com/uc?id=1WIdlXY12cTTRrwqomfyZ2vCX6QKLX_bK",
+      "https://drive.google.com/uc?id=1Rz1znV5LzGM2nIpyGoDjFWn4Lxp6XnAX",
+      "https://drive.google.com/uc?id=1L7PMO5ipwjKu7VpvLKM70xWmIBZpprQr"
+    ]
   },
   {
     "name": "Stephani Thompson",

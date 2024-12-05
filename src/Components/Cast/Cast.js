@@ -25,7 +25,6 @@ class Cast extends React.Component {
               // Resolve headshot to the corresponding image in PlayerData.js
               const headshotImage = images.find(
                 (img) =>
-                  // img.player.toLowerCase().replace(/\s+/g, "_") ===
                   img.player.toLowerCase().replace(" ", "_") === player.headshot
               );
 
