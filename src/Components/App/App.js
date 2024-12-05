@@ -70,7 +70,7 @@ class App extends React.Component {
                   </a>
                 </li>
                 <li>
-                  <Link to="/cast">Cast</Link>
+                  <Link to="/cast">Cast & Fam</Link>
                 </li>
                 <li>
                   <Link to="/media">Media</Link>

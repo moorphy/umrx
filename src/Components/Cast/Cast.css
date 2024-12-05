@@ -44,6 +44,15 @@ h4 {
     align-items: center;
 }
 
+.player-headshot {
+    max-width: 200px; /* Limits the width */
+    max-height: 200px; /* Limits the height */
+    object-fit: cover; /* Ensures images maintain aspect ratio and fill the container */
+    margin: 0 auto; /* Centers the image */
+    border-radius: 8px; /* Optional: gives a rounded effect */
+  }
+  
+
 @media only screen and (max-width: 1250px) {
     .about {
         flex-direction: column;

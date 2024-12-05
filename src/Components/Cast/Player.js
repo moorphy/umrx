@@ -2,15 +2,21 @@ import React from "react";
 import "./Cast.css";
 // import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import { images } from "../../Helpers/PlayerData";
 
 class Player extends React.Component {
   render() {
-    const { name, pronouns, role, bio, photo_1 } = this.props;
+    const { name, pronouns, role, bio, headshot } = this.props;
     return (
       <div className="contact-box">
-        {/* <Card style={{ width: "18rem" }}> */}
         <Card>
-          <Card.Img variant="top" src={photo_1} />
+          <Card.Img
+            variant="top"
+            src={headshot}
+            alt={`${name}'s headshot`}
+            className="img-fluid player-headshot"
+            rounded
+          />
           <Card.Body>
             <Card.Title>
               <h1>{name}</h1>

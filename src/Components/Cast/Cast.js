@@ -3,6 +3,7 @@ import React from "react";
 import "./Cast.css";
 import Player from "./Player";
 import player_data from "./umrx_fam.json";
+import { images } from "../../Helpers/PlayerData";
 import godzilla from "../../images/godzilla.png";
 
 class Cast extends React.Component {
@@ -20,16 +21,25 @@ class Cast extends React.Component {
 
           <div className="aboutText">
             <h1>He's making a list and checking it twice</h1>
-            {player_data.map((player, index) => (
-              <Player
-                key={index} // Unique key for each player card
-                name={player.name}
-                pronouns={player.pronouns}
-                role={player.role}
-                bio={player.bio}
-                photo_1={player.photo_1}
-              />
-            ))}
+            {player_data.map((player, index) => {
+              // Resolve headshot to the corresponding image in PlayerData.js
+              const headshotImage = images.find(
+                (img) =>
+                  // img.player.toLowerCase().replace(/\s+/g, "_") ===
+                  img.player.toLowerCase().replace(" ", "_") === player.headshot
+              );
+
+              return (
+                <Player
+                  key={index} // Unique key for each player card
+                  name={player.name}
+                  pronouns={player.pronouns}
+                  role={player.role}
+                  bio={player.bio}
+                  headshot={headshotImage ? headshotImage.img : null} // Resolve image or use null
+                />
+              );
+            })}
             <br />
             <br />
           </div>
