@@ -11,7 +11,7 @@ import preston_mcneil from "../images/players/preston_mcneil.jpeg";
 import randy_miller from "../images/players/randy_miller.jpeg";
 import rob_scherzer from "../images/players/rob_scherzer.png";
 import saina_hussain from "../images/players/saina_hussain.jpeg";
-import stephani_thompson from "../images/players/stephani_thompson.jpeg";
+import stephani_thompson from "../images/players/stephani_thompson.jpg";
 
 export const images = [
   { player: "Adria LaMorticella", img: adria_lamorticella },
