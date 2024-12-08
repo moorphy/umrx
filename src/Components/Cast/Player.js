@@ -6,6 +6,7 @@ import Card from "react-bootstrap/Card";
 class Player extends React.Component {
   render() {
     const { name, pronouns, role, bio, headshot } = this.props;
+
     return (
       <div className="contact-box">
         <br />
