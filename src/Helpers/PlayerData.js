@@ -9,7 +9,7 @@ import nathan_cox from "../images/players/nathan_cox.jpg";
 import nick_edwards from "../images/players/nick_edwards.jpg";
 import preston_mcneil from "../images/players/preston_mcneil.jpeg";
 import randy_miller from "../images/players/randy_miller.jpeg";
-import rob_scherzer from "../images/players/rob_scherzer.png";
+import rob_scherzer from "../images/players/rob_scherzer.jpeg";
 import saina_hussain from "../images/players/saina_hussain.jpeg";
 import stephani_thompson from "../images/players/stephani_thompson.jpg";
 
