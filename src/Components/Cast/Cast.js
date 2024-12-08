@@ -23,6 +23,7 @@ class Cast extends React.Component {
             <h1>He's making a list and checking it twice</h1>
             {player_data.map((player, index) => {
               // Resolve headshot to the corresponding image in PlayerData.js
+              // then pass in props to Player
               const headshotImage = images.find(
                 (img) =>
                   // img.player.toLowerCase().replaceAll(" ", "_") ===
