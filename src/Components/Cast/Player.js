@@ -2,7 +2,6 @@ import React from "react";
 import "./Cast.css";
 // import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import { images } from "../../Helpers/PlayerData";
 
 class Player extends React.Component {
   render() {
